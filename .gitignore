@@ -1,0 +1,43 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+
+# Android Studio
+# Need both .idea entries so we can include some files in <project root>/.idea/
+*/.idea
+/.idea/*
+.gradle
+/*/local.properties
+/*/out
+build/
+captures/
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
